@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+  input#TombolSearch[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(140, 247, 247);
+    background-image: url('../img/TombolSearch.png');
+    background-size: 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  input#TombolSearch[type=text]:focus{
+    width: 100%;
+  }
+
+  button#zoom {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(13, 153, 1);
+    transition: transform .2s;
+  }
+  
+  button#zoom:hover {
+    font-size: 22px;
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 2-8 */
+    transform: scale(1.02); 
+  }
