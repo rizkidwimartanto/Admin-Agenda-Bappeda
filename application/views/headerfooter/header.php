@@ -70,21 +70,6 @@
 				</div>
 			</li>
 
-            <li class="nav-item">
-				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-					aria-expanded="true" aria-controls="collapseTwo">
-					<i class="fas fa-fw fa-table"></i>
-					<span>Data Ruqyah</span>
-				</a>
-				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-					<div class="bg-white collapse-inner rounded">
-						<h6 class="collapse-header">Daftar Data:</h6>
-						<a class="collapse-item" href="<?php echo base_url(); ?>ControllersDataAgenda">Data Agenda</a>
-						<a class="collapse-item" href="<?php echo base_url(); ?>ControllersKehadiran">Data Kehadiran</a>
-					</div>
-				</div>
-			</li>
-
 			<!-- Divider -->
 			<hr class="sidebar-divider d-none d-md-block">
 
@@ -119,17 +104,17 @@
 							<i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
 							<!-- Button trigger modal -->
 							<button type="button" class="btn btn-danger" data-toggle="modal"
-								data-target="#exampleModal">
+								data-target="#ModalLogout">
 								Logout
 							</button>
 
 							<!-- Modal -->
-							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+							<div class="modal fade" id="ModalLogout" tabindex="-1" role="dialog"
 								aria-labelledby="exampleModalLabel" aria-hidden="true">
 								<div class="modal-dialog" role="document">
 									<div class="modal-content">
 										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+											<h5 class="modal-title" id="exampleModalLabel">Logout</h5>
 											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												<span aria-hidden="true">&times;</span>
 											</button>

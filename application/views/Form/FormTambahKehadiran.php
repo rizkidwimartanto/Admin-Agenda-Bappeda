@@ -13,13 +13,13 @@
             </select>
         </div>
 
-        <label for="sekretariat" class="form-label">Kehadiran Sekretariat</label>
+        <label for="serketariat" class="form-label">Kehadiran Serketariat</label>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2"><i class="fas fa-building"></i></span>
-            <select class="form-control" name="sekretariat" id="sekretariat" required oninvalid="this.setCustomValidity('Sekretariat Tidak Boleh Kosong')" oninput="setCustomValidity('')">
+            <select class="form-control" name="serketariat" id="serketariat" required oninvalid="this.setCustomValidity('Serketariat Tidak Boleh Kosong')" oninput="setCustomValidity('')">
                 <option value="">---Silahkan Pilih---</option>
-                <option value="Sekretariat Ada">Sekretariat Ada</option>
-                <option value="Sekretariat Tidak Ada">Sekretariat Tidak Ada</option>
+                <option value="Serketariat Ada">Serketariat Ada</option>
+                <option value="Serketariat Tidak Ada">serketariat Tidak Ada</option>
             </select>
         </div>
 

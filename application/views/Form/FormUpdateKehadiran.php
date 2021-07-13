@@ -1,6 +1,6 @@
 <div class="container">
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Form Tambah Kehadiran</h1>
+    <h1 class="h3 mb-2 text-gray-800">Form Update Kehadiran</h1>
     <hr style="border: 0.2px solid grey;">
     <form action="<?php echo base_url() ?>ControllersKehadiran/EditData/<?php echo $IdKehadiran; ?>" method="POST">
         <input type="hidden" name="id" value="<?php echo $IdKehadiran; ?>">
@@ -14,13 +14,13 @@
             </select>
         </div>
 
-        <label for="sekretariat" class="form-label">Kehadiran Sekretariat (<?php echo $DataKehadiran['sekretariat']; ?>)</label>
+        <label for="serketariat" class="form-label">Kehadiran Serketariat (<?php echo $DataKehadiran['serketariat']; ?>)</label>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2"><i class="fas fa-building"></i></span>
-            <select class="form-control" name="sekretariat" id="sekretariat" required oninvalid="this.setCustomValidity('Sekretariat Tidak Boleh Kosong')" oninput="setCustomValidity('')">
+            <select class="form-control" name="serketariat" id="serketariat" required oninvalid="this.setCustomValidity('Serketariat Tidak Boleh Kosong')" oninput="setCustomValidity('')">
                 <option value="">---Silahkan Pilih---</option>
-                <option value="Sekretariat Ada">Sekretariat Ada</option>
-                <option value="Sekretariat Tidak Ada">Sekretariat Tidak Ada</option>
+                <option value="Serketariat Ada">Serketariat Ada</option>
+                <option value="Serketariat Tidak Ada">Serketariat Tidak Ada</option>
             </select>
         </div>
 

@@ -48,7 +48,7 @@ class ModelKehadiran extends CI_Model
 
         $data = [
             'kepala' => $this->input->post('kepala'),
-            'sekretariat' => $this->input->post('sekretariat'),
+            'serketariat' => $this->input->post('serketariat'),
             'kepala_bidang_ekonomi' => $this->input->post('kepala_bidang_ekonomi'),
             'tanggal' => $this->ModelKehadiran->tgl_indo($this->input->post('tanggal'))
         ];
@@ -72,7 +72,7 @@ class ModelKehadiran extends CI_Model
 
         $data = [
             'kepala' => $this->input->post('kepala'),
-            'sekretariat' => $this->input->post('sekretariat'),
+            'serketariat' => $this->input->post('serketariat'),
             'kepala_bidang_ekonomi' => $this->input->post('kepala_bidang_ekonomi'),
             'tanggal' => $this->ModelKehadiran->tgl_indo($this->input->post('tanggal'))
         ];
